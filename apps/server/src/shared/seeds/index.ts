@@ -129,8 +129,8 @@ export async function importLevelData() {
 
 function getRandomShape() {
   const validShapes = [
-    99, 111, 1127, 1095, 15, 108, 110, 102, 26214, 26150, 126, 231, 4471, 4439,
-    12834, 57890,
+    61440, 59392, 50688, 27648, 57856, 52224, 63488, 62464, 61952, 61696, 62208,
+    64512,
   ];
 
   const randomIndex = Math.floor(Math.random() * validShapes.length);
